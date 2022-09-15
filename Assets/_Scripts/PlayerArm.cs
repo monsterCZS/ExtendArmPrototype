@@ -49,7 +49,7 @@ public class PlayerArm : MonoBehaviour
     {
         
 
-        this.armRB.MovePosition(newPosition);
+        this.armRB.MovePosition(this.targetPosition);
     }
 
     private void OnEnable()
